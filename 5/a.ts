@@ -66,7 +66,6 @@ for (const line of processed) {
       //   console.log({ x1, y1, i, x2 }, 'when y1= y2');
       matrix[y1 - smallestY][i - smallestX] += 1;
     }
-  } else {
   }
 }
 
